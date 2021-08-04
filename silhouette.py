@@ -113,6 +113,5 @@ plt.plot(range(1, len(face_dict)+1), wcss)
 plt.show()
 
 #繪製圖片
-#cv2.circle(image,(282.25, 365.75), 10, (0, 0, 255), 1)
 cv2.imshow('mtcnn', cv2.cvtColor(new_image, cv2.COLOR_RGB2BGR))
 cv2.waitKey(0)
